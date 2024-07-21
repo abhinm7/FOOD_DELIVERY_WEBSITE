@@ -59,6 +59,9 @@ font-size: max(1vw,12px);
 .cart-promocode p{
     color: #555;
 }
+.bold p{
+    font-weight: 600;
+}
 .promocode-input{
     margin-top: 10px;
     display: flex;

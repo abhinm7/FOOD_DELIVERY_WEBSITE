@@ -3,9 +3,9 @@ import Navbar from './components/Navbar/Navbar'
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/home/Home'
 import Footer from './components/Footer/Footer'
-import Placeholder from './pages/placeholder/Placeholder'
 import Cart from './pages/Cart/Cart'
 import LoginPopup from './components/LoginPopup/LoginPopup'
+import PlaceOrder from './pages/PlaceOrder/PlaceOrder'
 
 function App() {
   const [showLogin,setShowLogin]=useState(false);
@@ -17,7 +17,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/cart' element={<Cart />} />
-        <Route path='/placeholder' element={<Placeholder />} />
+        <Route path='/order' element={<PlaceOrder/>} />
       </Routes>
     </div>
       <Footer/>
